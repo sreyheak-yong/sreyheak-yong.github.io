@@ -1,7 +1,12 @@
+<!DOCTYPE html>
 <html>
-	<head><title>Designer Page</title></head>
+	<head><title>Designer Page</title>
+		<meta name="description" content="desing web page"/>
+		<meta name="keywords" content="design, coding">
+	</head>
 	<body>
-		<abbr title="Designer Logo"><img id="top" src="images/index_images/logo.jpg" width="200px" height="80px"></abbr>
+	<!--Apply abbr to image just add only title attribute-->
+		<img id="top" src="images/index_images/logo.jpg" width="200px" height="80px" title="Designer Logo">
 		<a href="index.html"><b>Home</b></a> &nbsp 
 		<a href="people.html">People</a> &nbsp 
 		<a href="people_report.html">People Report</a> &nbsp 
@@ -11,43 +16,51 @@
 			<img src="images/index_images/flash.jpg">
 			<p>* * * * * *</p>
 		</center><br/>
-		<h3><a href="people.html" style="text-decoration: none"><img src="images/people_images/designer.jpg" width="50px" height="30px" align="left">People</a></h3>
-		<hr/>
-		<h4><a href="coca_detail.html" style="text-decoration: none"><img src="images/index_images/coca.jpeg" align="left" width="150px">Mr. Coca</h4></a>
-		<ul style="list-style:none">
-			<li>Position: Designer</li>
-			<li>Language: English</li>
-			<li>Nationality: Khmer</li>
-			<li>E-mail: coca@gmail.com</li>
-		</ul><br/><br/><br/>
-		<h4><a href="coca_detail.html" style="text-decoration: none"><img src="images/index_images/sting.jpeg" align="left" width="150px">Ms. Sting</h4></a>
-		<ul style="list-style:none">
-			<li>Position: Design</li>
-			<li>Language: English</li>
-			<li>ationality: Khmer</li>
-			<li>E-mail: sting@gmail.com</li>
-		</ul><br/><br/><br/>
-		<h4><a href="coca_detail.html" style="text-decoration: none"><img src="images/index_images/spay.jpeg" width="150" align="left" width="150px"> Mr. Spay</h4></a>
-		<ul style="list-style:none">
-			<li>Position: Designer</li>
-			<li>Language: Khmer</li>
-			<li>Nationality: Khmer</li>
-			<li>E-mail:spay@gmail.com</li>
-		</ul><br/><br/><br/><br/><br/>
-		<h3><a href="about_us.html">About Us</a></h3><hr/>
-		<p>Take any creative field and you'll find well-known influencers who are responsible for leading the way, either with new interpretations, technical approaches or ideas. This is true whetheyou're looking at David Bailey in the photography world, or Tracey Emin in fine art. It comes about because some practitioners define a movement or technique, either inventing it, championing it, or otherwise leading a charge towards it.</p>
-		<ul>
-			<li><a href="http://www.creativebloq.com/web-design/10-names-every-web-designer-should-know-11135423">13 names every web designer should know</a></li>
-			<li><a href="http://goldenwebawards.com/famous-web-designers/">Famous Web Designers</a></li>
-			<li><a href="https://creativemarket.com/blog/2014/01/03/the-10-most-influential-figures-in-web-design">The 10 Most Influential Figures in Web Design</a></li>
-			<li><a href="http://thenextweb.com/dd/2013/12/29/10-web-design-trends-can-expect-see-2014/">10 Web design trends you can expect to see in 2014</a></li>
-			<li><a href="http://web-design-software-review.toptenreviews.com/famous-web-designers.html">Famous Web Designers</a></li>
-			<li><a href="http://99designs.com/designer-blog/2014/01/22/top-10-web-design-trends-for-2014/">Top 10 web design trends for 2014</a></li>
-		</ul><br/>
+		<div class="people">
+			<h3><a href="people.html" style="text-decoration: none"><img src="images/people_images/designer.jpg" width="50px" height="30px" align="left">People</a></h3>
+			<hr/>
+			<h4><a href="coca_detail.html" style="text-decoration: none"><img src="images/index_images/coca.jpeg" align="left" width="150px">Mr. Coca</h4></a>
+			<ul style="list-style:none">
+				<li>Position: Designer</li>
+				<li>Language: English</li>
+				<li>Nationality: Khmer</li>
+				<li>E-mail: coca@gmail.com</li>
+			</ul><br/><br/><br/>
+			<h4><a href="coca_detail.html" style="text-decoration: none"><img src="images/index_images/sting.jpeg" align="left" width="150px">Ms. Sting</h4></a>
+			<ul style="list-style:none">
+				<li>Position: Design</li>
+				<li>Language: English</li>
+				<li>ationality: Khmer</li>
+				<li>E-mail: sting@gmail.com</li>
+			</ul><br/><br/><br/>
+			<h4><a href="coca_detail.html" style="text-decoration: none"><img src="images/index_images/spay.jpeg" width="150" align="left" width="150px"> Mr. Spay</h4></a>
+			<ul style="list-style:none">
+				<li>Position: Designer</li>
+				<li>Language: Khmer</li>
+				<li>Nationality: Khmer</li>
+				<li>E-mail:spay@gmail.com</li>
+			</ul><br/><br/><br/><br/><br/>
+		</div>
+		<div class="about_us">
+			<h3><a href="about_us.html" style="text-decoration:none">About Us</a></h3><hr/>
+			<p>Take any creative field and you'll find well-known influencers who are responsible for leading the way, either with new interpretations, technical approaches or ideas. This is true whetheyou're looking at David Bailey in the photography world, or Tracey Emin in fine art. It comes about because some practitioners define a movement or technique, either inventing it, championing it, or otherwise leading a charge towards it.</p>
+			<!--referent for our web pages-->
+			<ul>
+				<li><a href="http://www.creativebloq.com/web-design/10-names-every-web-designer-should-know-11135423">13 names every web designer should know</a></li>
+				<li><a href="http://goldenwebawards.com/famous-web-designers/">Famous Web Designers</a></li>
+				<li><a href="https://creativemarket.com/blog/2014/01/03/the-10-most-influential-figures-in-web-design">The 10 Most Influential Figures in Web Design</a></li>
+				<li><a href="http://thenextweb.com/dd/2013/12/29/10-web-design-trends-can-expect-see-2014/">10 Web design trends you can expect to see in 2014</a></li>
+				<li><a href="http://web-design-software-review.toptenreviews.com/famous-web-designers.html">Famous Web Designers</a></li>
+				<li><a href="http://99designs.com/designer-blog/2014/01/22/top-10-web-design-trends-for-2014/">Top 10 web design trends for 2014</a></li>
+			</ul><br/>
+		</div>
+		<!--id used to uniquely identify that element from other elements on the page-->
+		<p><a href="#top">Go to the top</a></p><br/>
+	</body>
+	<footer>
 		<p>Sign In</p><hr/>
 		<center>
 			<p>Copyright © 2014 all rights reserved.</p>
 		</center>
-		<p><a href="#top">Go to the top</a></p>
-	</body>
+	</footer>
 </html>
